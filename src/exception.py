@@ -1,9 +1,9 @@
 import sys
 import os
-from src.logger import logging
+from logger import logging
 
 
-sys.path.append(os.path.abspath('src'))
+
 
 def error_message_detail(error, error_detail:sys):
     _,_,exc_tb = error_detail.exc_info()
