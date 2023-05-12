@@ -26,7 +26,7 @@ class DataIngestion:
 
 
         try:
-            df = pd.read_csv(os.path.join('notebooks/data', 'gemstone.csv'))
+            df = pd.read_csv(os.path.join(r"D:\data science\DiamondPricePrediction\notebooks\data\gemstone.csv"))
             logging.info('Data read as pandas Dataframe')
 
 
