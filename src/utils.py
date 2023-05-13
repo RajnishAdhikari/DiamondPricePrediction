@@ -2,7 +2,7 @@
 import os
 import sys
 from src.logger import logging
-from src.components.exception1 import CustomException
+from src.exception1 import CustomException
 import pandas as pd
 import numpy as np
 import pickle

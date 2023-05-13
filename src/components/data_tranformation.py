@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 
-from src.components.exception1 import CustomException
+from src.exception1 import CustomException
 from src.logger import logging
 
 from src.utils import save_object

@@ -1,7 +1,7 @@
 import os
 import sys
 from src.logger import logging
-from src.components.exception1 import CustomException
+from src.components import *
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
