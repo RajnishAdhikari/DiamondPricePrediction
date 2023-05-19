@@ -13,7 +13,7 @@ from dataclasses import dataclass
 class DataIngestionconfig:
     train_data_path = os.path.join('artifacts', 'train.csv')
     test_data_path = os.path.join('artifacts', 'test.csv')
-    raw_data_path = os.join('artifacts', 'raw.csv')
+    raw_data_path = os.path.join('artifacts', 'raw.csv')
 
 
 # creating a data ingestion class 
@@ -26,7 +26,7 @@ class DataIngestion:
 
 
         try:
-            df = pd.read_csv(os.path.join(r"D:\data science\DiamondPricePrediction\notebooks\data\gemstone.csv"))
+            df = pd.read_csv(os.path.join('notebooks/data','gemstone.csv'))
             logging.info('Data read as pandas Dataframe')
 
 
